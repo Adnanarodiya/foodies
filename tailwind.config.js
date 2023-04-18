@@ -10,7 +10,11 @@ module.exports = {
         },
         black: {
           DEFAULT: "#1D1D1F",
-          light: "#767675   ",
+          light: "#767675",
+        },
+        gray: {
+          DEFAULT: "#f0f1ec",
+          light: "#f0ede2",
         },
       },
       fontFamily: {
