@@ -40,8 +40,8 @@
         </section>
       </div>
     </header>
-    <main class="bg-green-light">
-      <section>
+    <main>
+      <section class="bg-green-light">
         <div class="container">
           <div class="flex flex-col items-center md:flex-row">
             <div>
@@ -59,7 +59,7 @@
               </p>
               <div>
                 <button
-                  class="mx-auto mb-8 flex h-16 w-11/12 items-center justify-center bg-green text-base text-white sm:w-2/4 md:mx-0 md:w-44"
+                  class="mx-auto mb-8 flex h-16 w-11/12 items-center justify-center bg-green text-base text-white hover:bg-green-400 sm:w-2/4 md:mx-0 md:w-44"
                   type="button"
                 >
                   Get Started
@@ -81,300 +81,545 @@
           </div>
         </div>
       </section>
-      <!-- <section class="-mt-44 bg-white">
+      <section class="bg-white md:pb-10">
         <div class="container">
-          <div class="flex flex-wrap">
-            <img src="img/Group 1.png" alt="#" />
-            <img src="img/Group 2.png" alt="#" />
-            <img src="img/Group 3.png" alt="#" />
+          <div
+            class="mx-0 my-10 flex flex-wrap justify-between md:-mt-40 md:w-1/2 md:pt-14"
+          >
+            <div class="mx-auto"><img src="img/Group 1.png" alt="" /></div>
+            <div class="mx-auto"><img src="img/Group 2.png" alt="" /></div>
+            <div class="mx-auto"><img src="img/Group 3.png" alt="" /></div>
           </div>
         </div>
-      </section> -->
-    </main>
-    <section>
-      <div class="container">
-        <hr />
-        <div class="my-16 grid grid-cols-2 gap-4 md:grid-cols-4">
-          <div
-            class="flex flex-col items-center md:flex lg:flex-row lg:items-center"
-          >
-            <div>
-              <img class="lg:mr-8" src="img/Icon.png" alt="" />
-            </div>
-            <div class="mt-4 flex flex-col items-center">
-              <h4 class="text-xl text-black">Free Shipping</h4>
-              <p class="text-black-light">Orders Over $140</p>
-            </div>
-          </div>
-          <div
-            class="flex flex-col items-center md:flex lg:flex-row lg:items-center"
-          >
-            <div>
-              <img class="lg:mr-8" src="img/Icon (1).png" alt="" />
-            </div>
-            <div class="mt-4 flex flex-col items-center">
-              <h4 class="text-xl text-black">Quick Payment</h4>
-              <p class="text-black-light">100% secure payment</p>
-            </div>
-          </div>
-          <div
-            class="flex flex-col items-center md:flex lg:flex-row lg:items-center"
-          >
-            <div>
-              <img class="lg:mr-8" src="img/Icon (2).png" alt="" />
-            </div>
-            <div class="mt-4 flex flex-col items-center">
-              <h4 class="text-xl text-black">Special Promo</h4>
-              <p class="text-black-light">Get special promo</p>
-            </div>
-          </div>
-          <div
-            class="flex flex-col items-center md:flex lg:flex-row lg:items-center"
-          >
-            <div>
-              <img class="lg:mr-8" src="img/Icon 3.png" alt="" />
-            </div>
-            <div class="mt-4 flex flex-col items-center">
-              <h4 class="text-xl text-black">24/7 Support</h4>
-              <p class="text-black-light">Ready support</p>
-            </div>
-          </div>
-        </div>
-        <hr />
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="my-24 grid grid-cols-1 md:grid-cols-2">
-          <div>
-            <img class="mx-auto sm:hidden" src="img/Images.png" alt="" />
-            <img
-              class="mx-auto hidden sm:block"
-              src="img/Images md.png"
-              alt=""
-            />
-          </div>
-          <div class="relative mt-12">
-            <div class="absolute top-12 -z-10 lg:-left-12">
-              <img src="img/Polcadot.png" alt="" />
-            </div>
-            <p class="mb-4 text-center text-xl font-semibold md:text-left">
-              Our Benefit
-            </p>
-            <h2
-              class="items-center text-center text-6xl font-semibold md:text-left md:text-3xl lg:text-7xl"
+      </section>
+      <section class="mt-20">
+        <div class="container">
+          <hr />
+          <div class="my-16 grid grid-cols-2 gap-4 md:grid-cols-4">
+            <div
+              class="flex flex-col items-center md:flex lg:flex-row lg:items-center"
             >
-              The More Healthy Food The Better
-            </h2>
-            <ul>
-              <li>
-                <div class="flex flex-col justify-center md:justify-start">
-                  <div
-                    class="mx-auto mt-20 md:mx-0 md:mt-12 md:justify-start lg:mt-28"
-                  >
-                    <div class="mb-8 flex">
-                      <div class00="flex items-center">
-                        <img
-                          class="mr-8"
-                          src="img/Icon awesome-check.png"
-                          alt=""
-                        />
+              <div>
+                <img class="lg:mr-8" src="img/Icon.png" alt="" />
+              </div>
+              <div class="mt-4 flex flex-col items-center">
+                <h4 class="text-xl text-black">Free Shipping</h4>
+                <p class="text-black-light">Orders Over $140</p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center md:flex lg:flex-row lg:items-center"
+            >
+              <div>
+                <img class="lg:mr-8" src="img/Icon (1).png" alt="" />
+              </div>
+              <div class="mt-4 flex flex-col items-center">
+                <h4 class="text-xl text-black">Quick Payment</h4>
+                <p class="text-black-light">100% secure payment</p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center md:flex lg:flex-row lg:items-center"
+            >
+              <div>
+                <img class="lg:mr-8" src="img/Icon (2).png" alt="" />
+              </div>
+              <div class="mt-4 flex flex-col items-center">
+                <h4 class="text-xl text-black">Special Promo</h4>
+                <p class="text-black-light">Get special promo</p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center md:flex lg:flex-row lg:items-center"
+            >
+              <div>
+                <img class="lg:mr-8" src="img/Icon 3.png" alt="" />
+              </div>
+              <div class="mt-4 flex flex-col items-center">
+                <h4 class="text-xl text-black">24/7 Support</h4>
+                <p class="text-black-light">Ready support</p>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="my-24 grid grid-cols-1 md:grid-cols-2">
+            <div>
+              <img class="mx-auto sm:hidden" src="img/Images.png" alt="" />
+              <img
+                class="mx-auto hidden sm:block"
+                src="img/Images md.png"
+                alt=""
+              />
+            </div>
+            <div class="relative mt-12">
+              <div class="absolute top-12 -z-10 lg:-left-12">
+                <img src="img/Polcadot.png" alt="" />
+              </div>
+              <p class="mb-4 text-center text-xl font-semibold md:text-left">
+                Our Benefit
+              </p>
+              <h2
+                class="items-center text-center text-6xl font-semibold md:text-left md:text-3xl lg:text-7xl"
+              >
+                The More Healthy Food The Better
+              </h2>
+              <ul>
+                <li>
+                  <div class="flex flex-col justify-center md:justify-start">
+                    <div
+                      class="mx-auto mt-20 md:mx-0 md:mt-12 md:justify-start lg:mt-28"
+                    >
+                      <div class="mb-8 flex">
+                        <div class00="flex items-center">
+                          <img
+                            class="mr-8"
+                            src="img/Icon awesome-check.png"
+                            alt=""
+                          />
+                        </div>
+                        <p class="text-2xl">Be Alive With Veggie Food.</p>
                       </div>
-                      <p class="text-2xl">Be Alive With Veggie Food.</p>
-                    </div>
-                    <div class="mb-8 flex">
-                      <div class="flex items-center">
-                        <img
-                          class="mr-8"
-                          src="img/Icon awesome-check.png"
-                          alt=""
-                        />
+                      <div class="mb-8 flex">
+                        <div class="flex items-center">
+                          <img
+                            class="mr-8"
+                            src="img/Icon awesome-check.png"
+                            alt=""
+                          />
+                        </div>
+                        <p class="text-2xl">It's The Place To Be.</p>
                       </div>
-                      <p class="text-2xl">It's The Place To Be.</p>
-                    </div>
-                    <div class="mb-8 flex">
-                      <div class="flex items-center">
-                        <img
-                          class="mr-8"
-                          src="img/Icon awesome-check.png"
-                          alt=""
-                        />
+                      <div class="mb-8 flex">
+                        <div class="flex items-center">
+                          <img
+                            class="mr-8"
+                            src="img/Icon awesome-check.png"
+                            alt=""
+                          />
+                        </div>
+                        <p class="text-2xl">Nonstop Veggie Food</p>
                       </div>
-                      <p class="text-2xl">Nonstop Veggie Food</p>
-                    </div>
-                    <div class="mb-8 flex">
-                      <div class="flex items-center">
-                        <img
-                          class="mr-8"
-                          src="img/Icon awesome-check.png"
-                          alt=""
-                        />
+                      <div class="mb-8 flex">
+                        <div class="flex items-center">
+                          <img
+                            class="mr-8"
+                            src="img/Icon awesome-check.png"
+                            alt=""
+                          />
+                        </div>
+                        <p class="text-2xl">The Best Silk Dish In Town</p>
                       </div>
-                      <p class="text-2xl">The Best Silk Dish In Town</p>
-                    </div>
-                    <div class="mb-8 flex">
-                      <div class="flex items-center">
-                        <img
-                          class="mr-8"
-                          src="img/Icon awesome-check.png"
-                          alt=""
-                        />
+                      <div class="mb-8 flex">
+                        <div class="flex items-center">
+                          <img
+                            class="mr-8"
+                            src="img/Icon awesome-check.png"
+                            alt=""
+                          />
+                        </div>
+                        <p class="text-2xl">Truffles, Egg & Pumpkin Spice</p>
                       </div>
-                      <p class="text-2xl">Truffles, Egg & Pumpkin Spice</p>
                     </div>
                   </div>
-                </div>
-              </li>
-            </ul>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="my-24 grid grid-cols-1 md:grid-cols-2">
-          <div class="relative mt-12">
-            <div class="absolute -z-10 lg:-left-12">
-              <img src="img/Polcadot.png" alt="" />
-            </div>
-            <p class="mb-4 text-center text-xl font-semibold md:text-left">
-              Our Stars
-            </p>
-            <h2
-              class="items-center text-center text-5xl font-semibold md:text-left md:text-3xl lg:text-7xl"
-            >
-              Veggie Food Goes On And Always On
-            </h2>
-            <div class="mt-24 md:flex">
-              <div class="mb-12 flex flex-col items-center md:mr-16">
-                <h4 class="text-5xl font-bold text-green">1,500</h4>
-                <p class="text-xl text-black-light">Sold Product</p>
-              </div>
-              <div class="mb-12 md:mr-16 flex flex-col items-center"">
-              <h4 class="text-5xl font-bold text-green">500</h4>
-              <p class="text-xl text-black-light">Possitive Feedback</p>
-            </div>
-            <div class="mb-12 flex flex-col items-center"">
-            <h4 class="text-5xl font-bold text-green">400</h4>
-            <p class="text-xl text-black-light">Official Store</p>
-          </div>
-        </div>
+      </section>
 
-        <button
-          class="mx-auto mb-8 flex h-16 w-11/12 items-center justify-center bg-green text-base text-white sm:w-2/4 md:mx-0 md:w-2/4 lg:w-56"
-          type="button"
-        >
-          Get Special Promo
+      <section>
+        <div class="container">
+          <div class="my-24 grid grid-cols-1 md:grid-cols-2">
+            <div class="relative mt-12">
+              <div class="absolute -z-10 lg:-left-12">
+                <img src="img/Polcadot.png" alt="" />
+              </div>
+              <p class="mb-4 text-center text-xl font-semibold md:text-left">
+                Our Stars
+              </p>
+              <h2
+                class="items-center text-center text-5xl font-semibold md:text-left md:text-3xl lg:text-7xl"
+              >
+                Veggie Food Goes On And Always On
+              </h2>
+              <div class="mt-24 md:flex">
+                <div class="mb-12 flex flex-col items-center md:mr-16">
+                  <h4 class="text-5xl font-bold text-green">1,500</h4>
+                  <p class="text-xl text-black-light">Sold Product</p>
+                </div>
+                <div class="mb-12 md:mr-16 flex flex-col items-center"">
+                <h4 class="text-5xl font-bold text-green">500</h4>
+                <p class="text-xl text-black-light">Possitive Feedback</p>
+              </div>
+              <div class="mb-12 flex flex-col items-center"">
+              <h4 class="text-5xl font-bold text-green">400</h4>
+              <p class="text-xl text-black-light">Official Store</p>
+            </div>
+          </div>
+
+          <button
+            class="mx-auto mb-8 flex h-16 w-11/12 items-center justify-center bg-green text-base text-white hover:bg-green-400 sm:w-2/4 md:mx-0 md:w-2/4 lg:w-56"
+            type="button"
+          >
+            Get Special Promo
+            <img
+              class="pl-4"
+              src="img/Icon awesome-long-arrow-alt-right.png"
+              alt=""
+            />
+          </button>
+        </div>
+        <div class="order-first md:order-last">
+          <img class="mx-auto sm:hidden" src="img/Images sm.png" alt="" />
           <img
-            class="pl-4"
-            src="img/Icon awesome-long-arrow-alt-right.png"
+            class="mx-auto hidden sm:block"
+            src="img/Images (1).png"
             alt=""
           />
-        </button>
-      </div>
-      <div class="order-first md:order-last">
-        <img class="mx-auto sm:hidden" src="img/Images sm.png" alt="" />
-        <img class="mx-auto hidden sm:block" src="img/Images (1).png" alt="" />
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section>
-      <div class="container">
-        <p
-          class="mb-8 text-center text-xl font-semibold md:flex md:justify-center md:text-left"
-        >
-          Our Features
-        </p>
-        <h2
-          class="mb-12 items-center text-center text-5xl font-semibold md:mb-20 md:flex md:justify-center md:text-left md:text-5xl lg:text-7xl"
-        >
-          Variety Of Veggie Foods
-        </h2>
-        <div
-          class="mx-auto grid md:mx-0 md:mb-40 md:grid-cols-2 lg:grid-cols-4"
-        >
-          <div class="lg:order-1">
-            <img
-              src="img/Place Your Image (3).png"
-              alt=""
-              class="h-full w-full object-cover"
-            />
-          </div>
-          <div class="border border-green bg-gray p-12 lg:order-2">
-            <h3 class="my-8 text-5xl font-semibold">Veggies Are Forever</h3>
-            <p class="mb-8 text-xl">We offer the following Services</p>
-            <div>
-              <button
-                class="flex items-center justify-center bg-gray-light p-5 text-base text-green"
-                type="button"
-              >
-                Discover New
-                <img class="pl-4" src="img/green arrow.png" alt="" />
-              </button>
+      <section>
+        <div class="container">
+          <p
+            class="mb-8 text-center text-xl font-semibold md:flex md:justify-center md:text-left"
+          >
+            Our Features
+          </p>
+          <h2
+            class="mb-12 items-center text-center text-5xl font-semibold md:mb-20 md:flex md:justify-center md:text-left md:text-5xl lg:text-7xl"
+          >
+            Variety Of Veggie Foods
+          </h2>
+          <div
+            class="mx-auto mb-24 grid md:mx-0 md:mb-40 md:grid-cols-2 lg:grid-cols-4"
+          >
+            <div class="lg:order-1">
+              <img
+                src="img/Place Your Image (3).png"
+                alt=""
+                class="h-full w-full object-cover"
+              />
             </div>
-          </div>
-          <div class="lg:order-3">
-            <img
-              src="img/Place Your Image (4).png"
-              alt=""
-              class="h-full w-full object-cover"
-            />
-          </div>
-          <div class="border border-green bg-gray p-12 lg:order-4">
-            <h3 class="my-8 text-5xl font-semibold">Good For Your Skin</h3>
-            <p class="mb-8 text-xl">We offer the following Services</p>
-            <div>
-              <button
-                class="flex items-center justify-center bg-gray-light p-5 text-base text-green"
-                type="button"
-              >
-                Discover New
-                <img class="pl-4" src="img/green arrow.png" alt="" />
-              </button>
+            <div class="border border-green bg-gray p-12 lg:order-2">
+              <h3 class="my-8 text-5xl font-semibold">Veggies Are Forever</h3>
+              <p class="mb-8 text-xl">We offer the following Services</p>
+              <div>
+                <button
+                  class="flex items-center justify-center bg-gray-light p-5 text-base text-green"
+                  type="button"
+                >
+                  Discover New
+                  <img class="pl-4" src="img/green arrow.png" alt="" />
+                </button>
+              </div>
             </div>
-          </div>
-          <div class="lg:order-6">
-            <img
-              src="img/Place Your Image (5).png"
-              alt=""
-              class="h-full w-full object-cover"
-            />
-          </div>
-          <div class="border border-green bg-gray p-12 lg:order-5">
-            <h3 class="my-8 text-5xl font-semibold">Veggies Food Groove</h3>
-            <p class="mb-8 text-xl">We offer the following Services</p>
-            <div>
-              <button
-                class="flex items-center justify-center bg-gray-light p-5 text-base text-green"
-                type="button"
-              >
-                Discover New
-                <img class="pl-4" src="img/green arrow.png" alt="" />
-              </button>
+            <div class="lg:order-3">
+              <img
+                src="img/Place Your Image (4).png"
+                alt=""
+                class="h-full w-full object-cover"
+              />
             </div>
-          </div>
-          <div class="lg:order-8">
-            <img
-              src="img/Place Your Image (6).png"
-              alt=""
-              class="h-full w-full object-cover"
-            />
-          </div>
-          <div class="border border-green bg-gray p-12 lg:order-7">
-            <h3 class="my-8 text-5xl font-semibold">That Comes Close</h3>
-            <p class="mb-8 text-xl">We offer the following Services</p>
-            <div>
-              <button
-                class="flex items-center justify-center bg-gray-light p-5 text-base text-green"
-                type="button"
-              >
-                Discover New
-                <img class="pl-4" src="img/green arrow.png" alt="" />
-              </button>
+            <div class="border border-green bg-gray p-12 lg:order-4">
+              <h3 class="my-8 text-5xl font-semibold">Good For Your Skin</h3>
+              <p class="mb-8 text-xl">We offer the following Services</p>
+              <div>
+                <button
+                  class="flex items-center justify-center bg-gray-light p-5 text-base text-green"
+                  type="button"
+                >
+                  Discover New
+                  <img class="pl-4" src="img/green arrow.png" alt="" />
+                </button>
+              </div>
+            </div>
+            <div class="lg:order-6">
+              <img
+                src="img/Place Your Image (5).png"
+                alt=""
+                class="h-full w-full object-cover"
+              />
+            </div>
+            <div class="border border-green bg-gray p-12 lg:order-5">
+              <h3 class="my-8 text-5xl font-semibold">Veggies Food Groove</h3>
+              <p class="mb-8 text-xl">We offer the following Services</p>
+              <div>
+                <button
+                  class="flex items-center justify-center bg-gray-light p-5 text-base text-green"
+                  type="button"
+                >
+                  Discover New
+                  <img class="pl-4" src="img/green arrow.png" alt="" />
+                </button>
+              </div>
+            </div>
+            <div class="lg:order-8">
+              <img
+                src="img/Place Your Image (6).png"
+                alt=""
+                class="h-full w-full object-cover"
+              />
+            </div>
+            <div class="border border-green bg-gray p-12 lg:order-7">
+              <h3 class="my-8 text-5xl font-semibold">That Comes Close</h3>
+              <p class="mb-8 text-xl">We offer the following Services</p>
+              <div>
+                <button
+                  class="flex items-center justify-center bg-gray-light p-5 text-base text-green"
+                  type="button"
+                >
+                  Discover New
+                  <img class="pl-4" src="img/green arrow.png" alt="" />
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section>
+        <div class="container">
+          <p class="mb-8 text-center text-xl font-semibold md:text-left">
+            Our Product
+          </p>
+          <h2
+            class="mb-12 items-center text-center text-5xl font-semibold md:mb-20 md:text-left md:text-5xl lg:text-7xl"
+          >
+            Most Popular Product
+          </h2>
+          <div
+            class="mx-auto mb-20 grid gap-8 md:mb-40 md:grid-cols-2 lg:grid-cols-4"
+          >
+            <div
+              class="justify-center border-2 border-gray-light text-center opacity-75 hover:border-green"
+            >
+              <div>
+                <img
+                  class="mx-auto mt-8 flex"
+                  src="img/Place Your Image (7).png"
+                  alt=""
+                />
+              </div>
+              <div class="mb-8 flex justify-center">
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+              </div>
+              <p class="mb-8 text-xl text-black">Summer Veganie</p>
+              <p class="mb-8 text-lg text-green">
+                <del class="text-black-light">$25</del> $29
+              </p>
+              <div>
+                <button
+                  class="mx-auto mb-8 flex w-1/2 items-center justify-center border-2 border-green p-4 text-base text-green hover:border-green-400 hover:bg-green-400"
+                  type="button"
+                >
+                  Buy Now
+                  <img class="pl-4" src="img/green arrow.png" alt="" />
+                </button>
+              </div>
+            </div>
+            <div
+              class="justify-center border-2 border-l-gray-light text-center opacity-75 hover:border-green"
+            >
+              <div>
+                <img
+                  class="mx-auto mt-8 flex"
+                  src="img/Place Your Image (8).png"
+                  alt=""
+                />
+              </div>
+              <div class="mb-8 flex justify-center">
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+              </div>
+              <p class="mb-8 text-xl text-black">Summer Veganie</p>
+              <p class="mb-8 text-lg text-green">
+                <del class="text-black-light">$25</del> $29
+              </p>
+              <div>
+                <button
+                  class="mx-auto mb-8 flex w-1/2 items-center justify-center border-2 border-green p-4 text-base text-green hover:border-green-400 hover:bg-green-400"
+                  type="button"
+                >
+                  Buy Now
+                  <img class="pl-4" src="img/green arrow.png" alt="" />
+                </button>
+              </div>
+            </div>
+            <div
+              class="justify-center border-2 border-l-gray-light text-center opacity-75 hover:border-green"
+            >
+              <div>
+                <img
+                  class="mx-auto mt-8 flex"
+                  src="img/Place Your Image (9).png"
+                  alt=""
+                />
+              </div>
+              <div class="mb-8 flex justify-center">
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+              </div>
+              <p class="mb-8 text-xl text-black">Summer Veganie</p>
+              <p class="mb-8 text-lg text-green">
+                <del class="text-black-light">$25</del> $29
+              </p>
+              <div>
+                <button
+                  class="mx-auto mb-8 flex w-1/2 items-center justify-center border-2 border-green p-4 text-base text-green hover:border-green-400 hover:bg-green-400"
+                  type="button"
+                >
+                  Buy Now
+                  <img class="pl-4" src="img/green arrow.png" alt="" />
+                </button>
+              </div>
+            </div>
+            <div
+              class="justify-center border-2 border-l-gray-light text-center opacity-75 hover:border-green"
+            >
+              <div>
+                <img
+                  class="mx-auto mt-8 flex"
+                  src="img/Place Your Image (10).png"
+                  alt=""
+                />
+              </div>
+              <div class="mb-8 flex justify-center">
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+                <img src="img/Icon awesome-star.png" alt="" />
+              </div>
+              <p class="mb-8 text-xl text-black">Summer Veganie</p>
+              <p class="mb-8 text-lg text-green">
+                <del class="text-black-light">$25</del> $29
+              </p>
+              <div>
+                <button
+                  class="mx-auto mb-8 flex w-1/2 items-center justify-center border-2 border-green p-4 text-base text-green hover:border-green-400 hover:bg-green-400"
+                  type="button"
+                >
+                  Buy Now
+                  <img class="pl-4" src="img/green arrow.png" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div
+          class="before:content relative my-20 mb-8 w-full bg-black/50 bg-bannerimage bg-cover mix-blend-multiply before:absolute before:z-20 before:h-full before:w-full before:bg-black before:opacity-50 md:my-32 lg:mx-auto lg:w-3/4"
+        >
+          <div class="container">
+            <div class="relative z-40 px-6 py-32">
+              <p class="text-center text-4xl text-white md:px-32 md:text-6xl">
+                Veggie Food? Ingredients You Want To Try
+              </p>
+              <div
+                class="mt-12 flex items-center justify-center text-center md:mt-2"
+              >
+                <div>
+                  <button
+                    class="mt-8 flex items-center bg-green p-4 text-white hover:bg-green-400"
+                  >
+                    Get Started
+                    <img
+                      class="pl-4"
+                      src="img/Icon awesome-long-arrow-alt-right.png"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="text-center md:flex md:text-left">
+            <div class="md:w-1/3">
+              <div>
+                <img class="mx-auto mb-12 md:mx-0" src="img/Logo.png" alt="" />
+              </div>
+              <p class="mb-10 text-base md:w-2/4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor
+              </p>
+              <div class="mb-12 flex justify-center md:justify-start">
+                <a href="#">
+                  <img class="mr-8" src="img/facebook-f-brands (1).png" alt=""
+                /></a>
+                <a href="#">
+                  <img class="mr-8" src="img/instagram-brands (1).png" alt=""
+                /></a>
+                <a href="#"
+                  ><img class="mr-8" src="img/twitter-brands (1).png" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="mb-12 md:mb-12 md:w-1/5">
+              <h4 class="mb-12 text-2xl font-semibold">About Us</h4>
+              <div class="flex flex-col">
+                <a class="mb-4" href="#">About Us</a>
+                <a class="mb-4" href="#">Service Us</a>
+                <a class="mb-4" href="#">Contact</a>
+                <a class="mb-4" href="#">Company</a>
+              </div>
+            </div>
+            <div class="mb-12 md:w-1/5">
+              <h4 class="mb-12 text-2xl font-semibold">Company</h4>
+              <div class="flex flex-col">
+                <a class="mb-4" href="#">Patnership</a>
+                <a class="mb-4" href="#">Terms of Use</a>
+                <a class="mb-4" href="#">Privacy</a>
+                <a class="mb-4" href="#">Sitemap</a>
+              </div>
+            </div>
+            <div class="mb-12 md:w-1/4">
+              <h4 class="mb-12 text-2xl font-semibold">Get in touch</h4>
+              <p class="mb-12">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor
+              </p>
+              <div class="mb-12 md:flex md:flex-row">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  class="mb-4 h-12 w-4/5 bg-gray text-center md:mr-4 md:w-3/4"
+                />
+                <button
+                  type="button"
+                  class="h-12 w-4/5 bg-green text-white hover:bg-green-400 md:w-1/4"
+                >
+                  Subscibe
+                </button>
+              </div>
+            </div>
+          </div>
+          <p class="mb-8 text-center">Copyright © 2021 Foodies.</p>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>

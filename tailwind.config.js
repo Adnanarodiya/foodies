@@ -20,6 +20,10 @@ module.exports = {
       fontFamily: {
         inter: ['"Inter", sans-serif'],
       },
+
+      backgroundImage: {
+        bannerimage: "url('/xz/Rectangle.png')",
+      },
     },
     container: {
       center: true,
