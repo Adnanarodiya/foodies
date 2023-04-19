@@ -665,16 +665,16 @@ body {
   margin-top: 6rem;
 }
 
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-28 {
-  margin-top: 7rem;
 }
 
 .flex {
@@ -838,7 +838,7 @@ body {
 }
 
 .bg-bannerimage {
-  background-image: url('./img/Rectangle.png');
+  background-image: url('../../build/img/Rectangle.png');
 }
 
 .bg-cover {
