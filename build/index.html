@@ -23,19 +23,53 @@
               <img src="img/Logo.png" alt="" class="h-12" />
             </a>
           </div>
+
           <div>
-            <button type="button" class="flex items-center sm:hidden">
-              <a href="">
-                <img src="img/Menu.png" alt="" />
-              </a>
+            <button
+              id="hamburger-button"
+              class="h-12 w-12 cursor-pointer rounded-md border-2 border-green text-3xl text-green md:hidden"
+            >
+              &#9776;
             </button>
+            <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+              <a class="text-base hover:text-green" href="#">Home</a>
+              <a class="text-base hover:text-green" href="#">About Us</a>
+              <a class="text-base hover:text-green" href="#">Service Us</a>
+              <a class="text-base hover:text-green" href="#">Our Company</a>
+              <a class="text-base hover:text-green" href="#">Pages</a>
+            </nav>
           </div>
-          <nav class="hidden space-x-8 sm:block">
-            <a class="hover:text-green" href="#">Home</a>
-            <a class="hover:text-green" href="#">About Us</a>
-            <a class="hover:text-green" href="#">Service Us</a>
-            <a class="hover:text-green" href="#">Our Company</a>
-            <a class="hover:text-green" href="#">Pages</a>
+        </section>
+        <section
+          id="mobile-menu"
+          class="hidden w-full flex-col bg-green-light text-5xl"
+        >
+          <nav class="flex min-h-screen flex-col items-center py-8">
+            <a
+              class="w-full py-6 text-center text-base font-semibold hover:text-green"
+              href="#"
+              >Home</a
+            >
+            <a
+              class="w-full py-6 text-center text-base font-semibold hover:text-green"
+              href="#"
+              >About Us</a
+            >
+            <a
+              class="w-full py-6 text-center text-base font-semibold hover:text-green"
+              href="#"
+              >Service Us</a
+            >
+            <a
+              class="w-full py-6 text-center text-base font-semibold hover:text-green"
+              href="#"
+              >Our Company</a
+            >
+            <a
+              class="w-full py-6 text-center text-base font-semibold hover:text-green"
+              href="#"
+              >Pages</a
+            >
           </nav>
         </section>
       </div>
@@ -43,15 +77,15 @@
     <main>
       <section class="bg-green-light">
         <div class="container">
-          <div class="flex flex-col items-center md:flex-row">
+          <div class="flex flex-col items-center justify-between md:flex-row">
             <div>
               <h1
-                class="mb-6 items-center text-center text-6xl font-bold md:w-4/5 md:text-left"
+                class="mb-6 items-center text-center text-6xl font-bold text-black md:w-4/5 md:text-left"
               >
                 We're Serious For Food.
               </h1>
               <p
-                class="mb-6 text-center text-base text-black-light md:w-4/5 md:text-left"
+                class="mb-6 max-w-[380px] text-center text-base text-black-light md:w-4/5 md:text-left"
               >
                 We strive to provide a space where guests can connect with
                 themselves and explore their full potential, offering a safe
@@ -72,15 +106,16 @@
               </div>
             </div>
 
-            <img class="sm:hidden" src="img/Group 7.png" alt="" />
+            <img class="mt-12 sm:hidden" src="img/Group 7.png" alt="" />
             <img
-              class="hidden sm:block md:w-1/2"
+              class="mt-12 hidden sm:block md:w-1/2"
               src="img/Group 6.png"
               alt=""
             />
           </div>
         </div>
       </section>
+
       <section class="bg-white md:pb-10">
         <div class="container">
           <div
@@ -92,6 +127,7 @@
           </div>
         </div>
       </section>
+
       <section class="mt-20">
         <div class="container">
           <hr />
@@ -102,9 +138,9 @@
               <div>
                 <img class="lg:mr-8" src="img/Icon.png" alt="" />
               </div>
-              <div class="mt-4 flex flex-col items-center">
+              <div class="flex flex-col items-center">
                 <h4 class="text-xl text-black">Free Shipping</h4>
-                <p class="text-black-light">Orders Over $140</p>
+                <p class="text-base text-black-light">Orders Over $140</p>
               </div>
             </div>
             <div
@@ -113,9 +149,9 @@
               <div>
                 <img class="lg:mr-8" src="img/Icon (1).png" alt="" />
               </div>
-              <div class="mt-4 flex flex-col items-center">
+              <div class="flex flex-col items-center">
                 <h4 class="text-xl text-black">Quick Payment</h4>
-                <p class="text-black-light">100% secure payment</p>
+                <p class="text-base text-black-light">100% secure payment</p>
               </div>
             </div>
             <div
@@ -124,9 +160,9 @@
               <div>
                 <img class="lg:mr-8" src="img/Icon (2).png" alt="" />
               </div>
-              <div class="mt-4 flex flex-col items-center">
+              <div class="flex flex-col items-center">
                 <h4 class="text-xl text-black">Special Promo</h4>
-                <p class="text-black-light">Get special promo</p>
+                <p class="text-base text-black-light">Get special promo</p>
               </div>
             </div>
             <div
@@ -135,9 +171,9 @@
               <div>
                 <img class="lg:mr-8" src="img/Icon 3.png" alt="" />
               </div>
-              <div class="mt-4 flex flex-col items-center">
+              <div class="flex flex-col items-center">
                 <h4 class="text-xl text-black">24/7 Support</h4>
-                <p class="text-black-light">Ready support</p>
+                <p class="text-base text-black-light">Ready support</p>
               </div>
             </div>
           </div>
@@ -148,7 +184,7 @@
       <section>
         <div class="container">
           <div class="my-24 grid grid-cols-1 md:grid-cols-2">
-            <div>
+            <div class="order-1">
               <img class="mx-auto sm:hidden" src="img/Images.png" alt="" />
               <img
                 class="mx-auto hidden sm:block"
@@ -156,7 +192,7 @@
                 alt=""
               />
             </div>
-            <div class="relative mt-12">
+            <div class="relative order-2 mt-12">
               <div class="absolute top-12 -z-10 lg:-left-12">
                 <img src="img/Polcadot.png" alt="" />
               </div>
@@ -172,9 +208,9 @@
                 <li>
                   <div class="flex flex-col justify-center md:justify-start">
                     <div
-                      class="mx-auto mt-20 md:mx-0 md:mt-12 md:justify-start lg:mt-28"
+                      class="mx-auto mt-20 space-y-8 md:mx-0 md:mt-12 md:justify-start lg:mt-28"
                     >
-                      <div class="mb-8 flex">
+                      <div class="flex">
                         <div class00="flex items-center">
                           <img
                             class="mr-8"
@@ -184,7 +220,7 @@
                         </div>
                         <p class="text-2xl">Be Alive With Veggie Food.</p>
                       </div>
-                      <div class="mb-8 flex">
+                      <div class="flex">
                         <div class="flex items-center">
                           <img
                             class="mr-8"
@@ -194,7 +230,7 @@
                         </div>
                         <p class="text-2xl">It's The Place To Be.</p>
                       </div>
-                      <div class="mb-8 flex">
+                      <div class="flex">
                         <div class="flex items-center">
                           <img
                             class="mr-8"
@@ -204,7 +240,7 @@
                         </div>
                         <p class="text-2xl">Nonstop Veggie Food</p>
                       </div>
-                      <div class="mb-8 flex">
+                      <div class="flex">
                         <div class="flex items-center">
                           <img
                             class="mr-8"
@@ -229,14 +265,7 @@
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <div class="my-24 grid grid-cols-1 md:grid-cols-2">
-            <div class="relative mt-12">
+            <div class="relative order-4 mt-12">
               <div class="absolute -z-10 lg:-left-12">
                 <img src="img/Polcadot.png" alt="" />
               </div>
@@ -275,8 +304,8 @@
             />
           </button>
         </div>
-        <div class="order-first md:order-last">
-          <img class="mx-auto sm:hidden" src="img/Images sm.png" alt="" />
+        <div class="order-3 md:order-last">
+          <img class="mx-auto mt-12 sm:hidden" src="img/Images sm.png" alt="" />
           <img
             class="mx-auto hidden sm:block"
             src="img/Images (1).png"
@@ -300,14 +329,16 @@
           <div
             class="mx-auto mb-24 grid md:mx-0 md:mb-40 md:grid-cols-2 lg:grid-cols-4"
           >
-            <div class="lg:order-1">
+            <div class="order-1 lg:order-1">
               <img
                 src="img/Place Your Image (3).png"
                 alt=""
                 class="h-full w-full object-cover"
               />
             </div>
-            <div class="border border-green bg-gray p-12 lg:order-2">
+            <div
+              class="order-2 flex flex-col justify-center border border-green bg-gray p-12 lg:order-2"
+            >
               <h3 class="my-8 text-5xl font-semibold">Veggies Are Forever</h3>
               <p class="mb-8 text-xl">We offer the following Services</p>
               <div>
@@ -320,14 +351,16 @@
                 </button>
               </div>
             </div>
-            <div class="lg:order-3">
+            <div class="order-3 lg:order-3">
               <img
                 src="img/Place Your Image (4).png"
                 alt=""
                 class="h-full w-full object-cover"
               />
             </div>
-            <div class="border border-green bg-gray p-12 lg:order-4">
+            <div
+              class="order-4 order-4 flex flex-col justify-center border border-green bg-gray p-12"
+            >
               <h3 class="my-8 text-5xl font-semibold">Good For Your Skin</h3>
               <p class="mb-8 text-xl">We offer the following Services</p>
               <div>
@@ -340,14 +373,16 @@
                 </button>
               </div>
             </div>
-            <div class="lg:order-6">
+            <div class="order-5 lg:order-6">
               <img
                 src="img/Place Your Image (5).png"
                 alt=""
                 class="h-full w-full object-cover"
               />
             </div>
-            <div class="border border-green bg-gray p-12 lg:order-5">
+            <div
+              class="order-6 flex flex-col justify-center border border-green bg-gray p-12 lg:order-5"
+            >
               <h3 class="my-8 text-5xl font-semibold">Veggies Food Groove</h3>
               <p class="mb-8 text-xl">We offer the following Services</p>
               <div>
@@ -360,14 +395,16 @@
                 </button>
               </div>
             </div>
-            <div class="lg:order-8">
+            <div class="order-7 lg:order-8">
               <img
                 src="img/Place Your Image (6).png"
                 alt=""
                 class="h-full w-full object-cover"
               />
             </div>
-            <div class="border border-green bg-gray p-12 lg:order-7">
+            <div
+              class="order-8 flex flex-col justify-center border border-green bg-gray p-12 lg:order-7"
+            >
               <h3 class="my-8 text-5xl font-semibold">That Comes Close</h3>
               <p class="mb-8 text-xl">We offer the following Services</p>
               <div>
@@ -407,7 +444,7 @@
                   alt=""
                 />
               </div>
-              <div class="mb-8 flex justify-center">
+              <div class="mb-8 mt-4 flex justify-center">
                 <img src="img/Icon awesome-star.png" alt="" />
                 <img src="img/Icon awesome-star.png" alt="" />
                 <img src="img/Icon awesome-star.png" alt="" />
@@ -610,7 +647,7 @@
                 />
                 <button
                   type="button"
-                  class="h-12 w-4/5 bg-green text-white hover:bg-green-400 md:w-1/4"
+                  class="h-12 w-4/5 bg-green text-white hover:bg-green-400 md:w-[40%]"
                 >
                   Subscibe
                 </button>
@@ -621,5 +658,6 @@
         </div>
       </footer>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>

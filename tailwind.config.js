@@ -22,7 +22,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        bannerimage: "url('/xz/Rectangle.png')",
+        bannerimage: "url('../../build/img/Rectangle.png')",
       },
     },
     container: {
