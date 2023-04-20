@@ -838,7 +838,7 @@ body {
 }
 
 .bg-bannerimage {
-  background-image: url('../../build/img/Rectangle.png');
+  background-image: url('/../../build/img/Rectangle.png');
 }
 
 .bg-cover {
